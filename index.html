@@ -1,0 +1,749 @@
+﻿<!DOCTYPE html>
+      
+<html>
+
+ <head>
+
+
+
+    <link rel="icon" type="image/png" href="icono.png" />
+
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+ 
+
+    <style>
+      nav {
+        color: #fff;
+        background-color: #26A69A;
+      }
+
+      .logo {
+        font-family: Audiowide;
+        font-size: 24px;
+        padding-left: 30px;
+      }
+    </style>
+
+
+
+
+
+    <title>Rutas ETP</title>
+
+  </head>
+
+  <body>
+
+    <nav class="nav-extended">
+      <div class="nav-wrapper">
+        <a href="#!" class="logo">RUTAS ETP</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <input id="search" type="text" onkeyup="inSearch()" placeholder="Buscar" required >
+          </li>
+
+<!-- NAV -->
+
+      </div>
+      <div class="nav-content">
+        <ul class="tabs tabs-transparent">
+          <li class="tab"><a href="#test1">rutas etp</a></li>
+          <li class="tab"><a href="#test2">puntos de contacto</a></li>
+          <li class="tab"><a href="#test3">portal empresas</a></li>
+        </ul>
+      </div>
+    </nav>
+
+<!-- CONTENIDO -->
+
+<!-- RUTAS ETP -->
+
+    <div id="test1" class="col s12">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 main">
+            <table id="table">
+
+             <thead>
+               <tr>
+                 <th>Aplicativo</th>
+                 <th>Ruta</th>
+                 <th>Ingreso</th>
+      	         <th>Adicional</th>
+               </tr>
+             </thead>
+
+             <tbody>
+               <tr>
+                 <td>Intranet</td>
+                 <td>
+                   <a href="http://172.19.25.217/etp/intranet/index.php?option=com_content&view=article&id=1442&Itemid=3" target="_blank">172.19.25.217/etp/intranet/</a>
+                 </td>
+                 <td>intranet</td>
+               </tr>
+
+               <tr>
+                 <td>Webmail</td>
+                 <td>
+                   <a href="https://webmail.une.net.co" target="_blank">https://webmail.une.net.co</a>
+                 </td>
+                 <td>Usuario: factura<br>Contraseña: Medellin2012</td>
+               </tr>
+
+               <tr>
+                 <td>Venta Móvil</td>
+                 <td>
+                   <a href="http://ofivirtual.etp.com.co/appventamovilunem/index.php" target="_blank">http://ofivirtual.etp.com.co/appventamovilunem/index.php</a>
+                 </td>
+                 <td>login: nombre + cc<br>contraseña: nombre + cc</td>
+               </tr>
+
+               <tr>
+                 <td>SIG</td>
+                 <td>
+                   <a href="http://172.19.25.176/sigetp/home.aspx#principal" target="_blank">http://172.19.25.176/sigetp/home.aspx#principal</a>
+                 </td>
+                 <td>Internet</td>
+               </tr>
+
+               <tr>
+                 <td>API (ldap)</td>
+                 <td>
+                   <a href="http://10.4.254.205/API/" target="_blank">10.4.254.205/API/</a>
+                 </td>
+                 <td>10.4.254.205</td>
+               </tr>
+
+               <tr>
+                 <td>NOC</td>
+                 <td>
+                   <a href="http://10.4.254.205/NOC/" target="_blank">10.4.254.205/NOC/</a>
+                 </td>
+                 <td>10.4.254.205</td>
+               </tr>
+
+               <tr>
+                 <td>Mantis</td>
+                 <td>
+                   <a href="http://10.4.254.205/mantisbt/view_all_bug_page.php?page_number=1" target="_blank">http://10.4.254.205/mantisbt/view_all_bug_page.php?page_number=1</a>
+                 </td>
+                 <td>10.4.254.205</td>
+               </tr>
+
+               <tr>
+                 <td>CMI</td>
+                 <td>
+                   <a href="http://172.20.2.178/cmi_pymes/web/defingresos" target="_blank" id="cmi">http://172.20.2.178/cmi_pymes/web/defingresos</a>
+                 </td>
+                 <td>ingreso por wts <br>login <br>contraseña: login</td>
+            	   <td>
+<!-- Target -->
+
+
+<!-- Trigger -->
+<button class="btn" data-clipboard-target="#cmi">
+    copiar
+</button>
+                 </td>
+                   
+               </tr>
+
+               <tr>
+                 <td>Process Maker</td>
+                 <td>
+                   <a href="http://172.19.25.232/sysworkflow/es/neoclasic/login/login" target="_blank">http://172.19.25.232/sysworkflow/es/neoclasic/login/login</a>
+                 </td>
+                 <td>login <br> contraseña: login</td>
+               </tr>
+
+               <tr>
+                 <td>Autogestión WTS</td>
+                 <td>
+                   <a href="https://gestionatucuentadered.tigoune.com:9251/showLogin.cc" target="_blank">https://gestionatucuentadered.tigoune.com:9251/showLogin.cc</a>
+                 </td>
+                 <td>login<br></td>
+               </tr>
+
+               <tr>
+                 <td>Manuales</td>
+                 <td>
+                   <a href="file://10.1.2.11/Campa%C3%B1as%20de%20Salida%20EPM%20115/SAC%20EJE%202/Manuales/MANUALES%20-%20LLAMADAS%20FRECUENTES%20ETP.htm" target="_blank">https://manuales.etp</a>
+                 </td>
+                 <td>login<br></td>
+               </tr>
+
+             </tbody>
+           </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- PUNTOS DE CONTACTO -->
+
+    <div id="test2" class="col s12">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 main">
+            <table id="table">
+
+             <thead>
+               <tr>
+                 <th>Aplicativo</th>
+                 <th>Ruta</th>
+                 <th>Ingreso</th>
+      	         <th>Adicional</th>
+               </tr>
+             </thead>
+
+             <tbody>
+               <tr>
+                 <td>Tarifas Hogares</td>
+                 <td>
+                   <a href="http://puntosdecontacto/images/Base_Datos_Hogares/PRY_TARIFAS_7.0/index.htm" target="_blank">http://puntosdecontacto/images/Base_Datos_Hogares/PRY_TARIFAS_7.0/index.htm</a>
+                 </td>
+                 <td>Puntos de contacto<br></td>
+               </tr>
+
+               <tr>
+                 <td>Tarifas Pymes</td>
+                 <td>
+                   <a href="http://puntosdecontacto/images/Pymes/Matrices/Todo_TigoUNE_2018/index.htm" target="_blank">http://puntosdecontacto/images/Pymes/Matrices/Todo_TigoUNE_2018/index.htm</a>
+                 </td>
+                 <td>Puntos de contacto<br></td>
+               </tr>
+
+      	       <tr>
+                 <td>Formulario Contingencia</td>
+                 <td>
+                   <a href="http://puntosdecontacto.une.com.co/forms/Contingencia_Eje2/" target="_blank">http://puntosdecontacto.une.com.co/forms/Contingencia_Eje2/</a>
+                 </td>
+                 <td>login <br> contraseña: contraseña de red</td>
+
+                 <!-- Modal Trigger -->
+                 <td><a class="waves-effect waves-light btn modal-trigger" href="#modal-etpagtr">etpagtr</a></td>
+
+  <!-- Modal Structure -->
+  <div id="modal-etpagtr" class="modal">
+    <div class="modal-content">
+        <h4>Plantilla ETPAGTR</h4>
+        <div class="input-field col s12">
+          <textarea id="descripcion" class="materialize-textarea"></textarea>
+          <!- input placeholder="" id="pedido" type="text ->
+          <label for="descripcion">Descripción del caso:</label>
+        </div>
+        <div class="input-field col s4">
+          <input placeholder="" id="pedido" type="text">
+          <label for="pedido">Pedido/Actividad:</label>
+        </div>
+        <div class="input-field col s4">
+          <input placeholder="" id="contacto" type="text">
+          <label for="contacto">Contacto:</label>
+        </div>
+        <div class="input-field col s4">
+          <input placeholder="" id="cedula" type="text">
+          <label for="cedula">Cédula:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="telefono" type="text">
+          <label for="telefono">Tels de contacto:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="direccion" type="text">
+          <label for="direccion">Dirección de Servicio:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="municipio" type="text">
+          <label for="municipio">Municipio/Ciudad:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="email" type="text" class="validate">
+          <label for="email">Correo Electrónico:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="agenda" type="text">
+          <label for="agenda">Fecha tentativa nueva agenda:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="id" type="text">
+          <label for="id">Id:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="login" type="text">
+          <label for="login">Login Asesor:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="codigo" type="text">
+          <label for="login">Código del Asesor:</label>
+        </div>
+    </div>
+    <div class="modal-footer">
+      
+      <!-- Target -->
+      <p id="etpagtr"></p>
+
+      <!-- Trigger -->
+      <button class="btn" data-clipboard-target="#etpagtr" onClick="copiarPlantilla('contacto', 'etpagtr', 'descripcion', 12)">
+        copiar
+      </button>
+    </div>
+  </div>
+
+
+
+
+                 <!-- Modal Trigger -->
+                 <td><a class="waves-effect waves-light btn modal-trigger" href="#modal-pymes">venta pymes</a></td>
+
+  <!-- Modal Structure -->
+  <div id="modal-pymes" class="modal">
+    <div class="modal-content">
+        <h4>Plantilla Ventas Pymes</h4>
+        <div class="input-field col s4">
+          <input placeholder="" id="requiere" type="text">
+          <label for="requiere">SE REQUIERE:</label>
+        </div>
+        <div class="input-field col s4">
+          <input placeholder="" id="tarifa" type="text">
+          <label for="tarifa">Tarifa mensual:</label>
+        </div>
+        <div class="input-field col s4">
+          <input placeholder="" id="tRetiro" type="text" value="208.000$ + Tarifa incremental 109.000$">
+          <label for="tRetiro">Tarifa de Retiro:</label>
+        </div>
+        <div class="input-field col s4">
+          <input placeholder="" id="nombre" type="text">
+          <label for="cedula">Nombre del titular:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="nit" type="text">
+          <label for="nit">NIT/CC:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="nacimiento" type="text">
+          <label for="nacimiento">Fecha de nacimiento:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="expedicion" type="text">
+          <label for="expedicion">Fecha y lugar de expedición:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="grabacion" type="text">
+          <label for="grabacion">Grabación con:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="contacto" type="text">
+          <label for="contacto">contacto:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="cc" type="text">
+          <label for="cc">c.c:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="telefono" type="text">
+          <label for="telefono">Teléfonos de contacto:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="barrio" type="text">
+          <label for="barrio">Barrio:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="ciudad" type="text">
+          <label for="ciudad">Cuidad de Instalación:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="confronta" type="text">
+          <label for="confronta">Scoring o Confrnta</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="instalacion" type="text">
+          <label for="instalacion">Fecha tentativa de instalación:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="contrato" type="text" value="Resumido, Físico">
+          <label for="contrato">Contrato:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="email" type="text" class="validate">
+          <label for="email">Email:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="habeas" type="text" value="Si">
+          <label for="habeas">Ley Habeas Data:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="centrales" type="text" value="Si">
+          <label for="centrales">Centrales de Riesto:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="permanencia" type="text">
+          <label for="permnanecia">Acepta permanencia mínima:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="tecnologia" type="text">
+          <label for="tecnologia">Acepta cambio de tecnologia para instalar producto (menos Fibra Optica):</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="id" type="text">
+          <label for="id">Id de la llamada:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="asesor" type="text">
+          <label for="asesor">Nombre del asesor:</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="" id="codigo" type="text">
+          <label for="codigo">Código de vendedor:</label>
+        </div>
+    </div>
+    <div class="modal-footer">
+      
+      <!-- Target -->
+      <p id="pentaPymes"></p>
+
+      <!-- Trigger -->
+      <button class="btn" data-clipboard-target="#ventaPymes" onClick="copiarPlantilla('requiere', 'ventaPymes', null, 23)">
+        copiar
+      </button>
+    </div>
+  </div> 
+               </tr>
+
+               <tr>
+                 <td>Formulario de Retenida</td>
+                 <td>
+                   <a href="http://puntosdecontacto.une.com.co/forms/Novedades_eje_factura/login.php" target="_blank">http://puntosdecontacto.une.com.co/forms/Novedades_eje_factura/login.php</a>
+                 </td>
+                 <td>Puntos de contacto<br></td>
+               </tr>
+
+               <tr>
+
+               <tr>
+
+                 <td>Ciclos</td>
+
+                 <td><a href="http://puntosdecontacto/index.php?option=com_content&view=article&id=1302&Itemid=1088" target="_blank">http://puntosdecontacto/index.php?option=com_content&view=article&id=1302&Itemid=1088</a></td>
+
+                 <td>Puntos de contacto</td>
+
+                 <td>
+                   <a target="_blank" class="btn btn-outline-primary" type="button" href="http://puntosdecontacto/images/FyQ_Hogares/Ciclos/Programacion_ciclica_junio_2018_V6/Programacion_ciclica_junio_2018_V6.htm">junio</a>
+                   <a target="_blank" class="btn btn-outline-primary" type="button" href="http://puntosdecontacto/images/FyQ_Hogares/Ciclos/Programacion_ciclica_julio_2018_V6.htm">julio</a>
+                   <a target="_blank" class="btn btn-outline-primary" type="button" href="http://puntosdecontacto/images/FyQ_Hogares/Ciclos/Programacion_ciclica_Agosto_2018_V4.htm">Agosto</a>
+                   <a target="_blank" class="btn btn-outline-primary" type="button" href="http://puntosdecontacto/images/FyQ_Hogares/Ciclos/Programacion_ciclica_Sep_2018_V0.htm">septiembre</a>
+                 </td>
+               </tr>
+
+               <tr>
+                 <td>Grilla de canales</td>
+                 <td>
+                   <a href="http://puntosdecontacto/images/Base_Datos_Hogares/Grilla_Canales_UNE/index.html" target="_blank">http://puntosdecontacto/images/Base_Datos_Hogares/Grilla_Canales_UNE/index.html</a>
+                 </td>
+                 <td>Puntos de Contacto</td>
+               </tr>
+
+               <tr>
+                 <td>Tiendas TigoUne</td>
+                 <td>
+                   <a href="http://puntosdecontacto.une.com.co/forms/base_datos_tiendas/base_datos_tiendas_datoslist.php" target="_blank">http://puntosdecontacto.une.com.co/forms/base_datos_tiendas/base_datos_tiendas_datoslist.php</a>
+                 </td>
+                 <td>Puntos de Contacto</td>
+               </tr>
+
+               <tr>
+                 <td>Gestor de Distribución</td>
+                 <td>
+                   <a href="http://une.infokairos.com.co/user/login" target="_blank">http://une.infokairos.com.co/</a>
+                 </td>
+                 <td>
+                   <strong>Usuario: </strong>Contac - TigoUne<br>
+                   <strong>contraseña: </strong>Cont_TigoUne2018
+                 </td>
+               </tr>
+
+
+
+               <tr>
+                 <td>IQ (WODEN)</td>
+                 <td>
+                   <a href="http://iqe.godoworks.co/" target="_blank">http://iqe.godoworks.co/</a>
+                 </td>
+                 <td>Cuenta: 373<br>Usuario: unesac<br>Clave: unesac2017</td>
+               </tr>
+
+               <tr>
+                 <td>Autogestión WTS</td>
+                 <td>
+                   <a href="https://gestionatucuentadered.tigoune.com:9251/showLogin.cc" target="_blank">https://gestionatucuentadered.tigoune.com:9251/showLogin.cc</a>
+                 </td>
+                 <td>login<br></td>
+               </tr>
+
+             </tbody>
+           </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- PORTAL EMPRESAS -->
+
+    <div id="test3" class="col s12">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 main">
+            <table id="table">
+
+              <thead>
+                <tr>
+                  <th>Procesos Portal B2B</th>
+                  <th>URL</th>
+                  <th>¿Para Que Sirve?</th>
+                </tr>
+              </thead>
+
+             <tbody>
+               <tr>
+                 <td>Crear Cuentas Empresas</td>
+                 <td>
+                   <a href="https://micuentab2b.tigo.com.co/empresa" target="_blank">https://micuentab2b.tigo.com.co/empresa</a>
+                 </td>
+                 <td>Crear las cuentas de las empresas</td>
+               </tr>              
+
+               <tr>
+                 <td>Mi Cuenta</td>
+                 <td>
+                   <a href="https://micuentab2b.tigo.com.co/" target="_blank">https://micuentab2b.tigo.com.co/</a>
+                 </td>
+                 <td>Ingresar en el portal</td>
+               </tr>
+
+               <tr>
+                 <td>Administrar invitaciones</td>
+                 <td>
+                   <a href="https://micuentab2b.tigo.com.co​/admin/invitaciones" target="_blank">https://micuentab2b.tigo.com.co​/admin/invitaciones</a>
+                 </td>
+                 <td>Consultar y administrar invitaciones</td>
+               </tr>
+
+               <tr>
+                 <td>Asociar Usuarios</td>
+                 <td>
+                   <a href="https://micuentab2b.tigo.com.co/usuarios" target="_blank">https://micuentab2b.tigo.com.co/usuarios</a>
+                 </td>
+                 <td>Cuando está creada la empresa y se va asociar otro usuario</td>
+               </tr>
+
+               <tr>
+                 <td>Emular Sesión</td>
+                 <td>
+                   <a href="https://micuentab2b.tigo.com.co/emular-sesion" target="_blank">https://micuentab2b.tigo.com.co/emular-sesion</a>
+                 </td>
+                 <td>Revisar la cuenta de los usuarios (Simular cuentas)</td>
+               </tr>
+
+               <tr>
+                 <td>Importación Masiva</td>
+                 <td>
+                   <a href="https://micuentab2b.tigo.com.co/importar-masivo" target="_blank">https://micuentab2b.tigo.com.co/importar-masivo</a>
+                 </td>
+                 <td>Crear a los usuario por contingencia, no permitió por Crear empresa</td>
+               </tr>
+
+             </tbody>
+            </table>
+           </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+  </div>
+
+
+
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <script src="https://cdn.rawgit.com/zenorocha/clipboard.js/v1.5.3/dist/clipboard.min.js"></script>
+
+    <script>
+
+
+
+
+
+      //function copiarAlPortapapeles(id_elemento) {
+     //   var aux = document.createElement("input");
+    //    aux.setAttribute("value", document.getElementById(id_elemento).innerHTML);
+   //     document.body.appendChild(aux);
+  //      aux.select();
+  //      document.execCommand("copy");
+//        document.body.removeChild(aux);
+//      }
+
+
+      var clipboard = new Clipboard('.btn')
+
+      
+
+      function inSearch() {
+        var input, filter, table, tr, td, tst, t1, t2, t3;
+
+        input = document.getElementById("search");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("table")
+        tr = table.getElementsByTagName("tr")
+
+        t1 = document.getElementById("test1")
+	t2 = document.getElementById("test2")
+      	t3 = document.getElementById("test3")
+
+        for (let i; i <= 3; i++) {
+          if (input !== "") {
+        //    t1.style.display = "block"
+            
+
+          } else {
+            if (t1.class == "active") {
+              t2.style.display = ""
+              t3.style.display = ""
+            } else if (t2.class == "active") {
+              t1.style.display = ""
+              t3.style.display = ""
+            } else if (t3.class == "active") {
+              t1.style.display = ""
+              t2.style.display = ""
+            }
+          }
+        }
+
+
+
+      
+
+        for (let i = 0; i < tr.length; i++) {
+          td = tr[i].getElementsByTagName("td")[0];
+          if (td) {
+            if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+              tr[i].style.display = "";
+            } else {
+              tr[i].style.display = "none";
+            }
+          }
+        }
+      }
+
+
+
+      
+
+
+ 
+
+
+      function copiarPlantilla (id, parrafo, areaTexto = null, l) {
+
+let j = 1
+
+let hijo = $('#' + id)
+
+console.log(hijo.parent().parent().parent().attr('id'))
+
+
+        let labels = document.getElementsByTagName("label")
+        let inputs = document.getElementsByTagName("input")
+        
+        
+        var lab = []
+        var ins = []
+        var mix = []
+
+
+        for (let i = 0; i < l; i++) {
+          lab.push(labels[i].innerHTML)
+            if(areaTexto) {
+              let texto = document.getElementById(areaTexto)
+              if (i == 0) {
+                ins.push(texto.value)
+                mixer(lab, ins, mix, i, labels, parrafo, l)
+
+              } else if (i !== 0) {
+                ins.push(inputs[j].value)
+                
+                mixer(lab, ins, mix, i, labels, parrafo, l)
+                if (j < l) j++
+              }
+            } else {
+
+              ins.push(inputs[j].value)
+              
+              if (j < l + j) j++
+            
+              mixer(lab, ins, mix, i, labels, parrafo, l)
+
+              // esconderP()
+            }
+          }
+        }
+     
+
+      function mixer (lab, ins, mix, i, labels, parrafo, l) {
+
+        let p = document.getElementById(parrafo)
+        mix.push(`${lab[i]} ${ins[i]}`)
+        for(let u = 0; u < l; u++) {
+          p.innerHTML = mix.join(` <br> `)
+        }
+
+      }
+
+      function esconderP () {
+        p.style.display = "none"
+      }
+
+      $(document).ready(function(){
+        $('.tabs').tabs();
+      });
+
+      $(document).ready(function(){
+        $('.modal').modal();
+      });
+
+      $('#descripcion').val('');
+      M.textareaAutoResize($('#descripcion'));
+
+
+    </script>
+
+  </body>
+
+</html>
